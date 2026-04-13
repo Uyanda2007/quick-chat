@@ -17,6 +17,8 @@ class Login{
     
     boolean checkUsername(){
         System.out.println("Create a username (max 5 chars) and must contain an underscore");
+
+
         
         if((username.length() >=5)&& (username.contains("_"))){
             System.out.println("Usernanme sucessfully captured!");
