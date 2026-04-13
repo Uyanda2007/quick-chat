@@ -6,8 +6,6 @@ package poe;
 
 import java.util.Scanner;
 
-
-
 class Login{
     Scanner userInput = new Scanner(System.in);
     String username;
